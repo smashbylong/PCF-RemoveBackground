@@ -20,12 +20,12 @@ A Power Apps Component Framework (PCF) control that integrates with Remove.bg AP
 ## 📸 Screenshots
 
 ### Component Interface
-![Component Screenshot](docs/screenshot-main.png)
+![Component Screenshot](docs/screenshots/Component.gif)
 
 ### Before and After
 | Original | Result |
 |----------|--------|
-| ![Original](docs/before.png) | ![Result](docs/after.png) |
+| ![Original](docs/screenshots/Before.jpg) | ![Result](docs/screenshots/After.png) |
 
 ## 🛠️ Prerequisites
 
