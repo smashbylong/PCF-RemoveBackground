@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="utf-8" ?>
+<manifest>
+  <control namespace="LSP" constructor="RemoveBackground" version="0.0.1" display-name-key="RemoveBackground" description-key="RemoveBackground description" control-type="standard" >
+      <!-- API Key Property -->
+    <property name="ApiKey" display-name-key="API Key" description-key="Remove.bg API Key" of-type="SingleLine.Text" usage="input" required="true" default-value="" />
+    
+    <!-- Result Image Output -->
+    <property name="ResultImage" display-name-key="Result Image" description-key="Base64 result image" of-type="Multiple" usage="output" />
+    
+    <!-- Placeholder Image -->
+    <property name="PlaceholderImage" display-name-key="Placeholder Image" description-key="Placeholder image URL or base64" of-type="SingleLine.Text" usage="input" default-value="" />
+    
+    <!-- Style Properties -->
+    <property name="PrimaryColor" display-name-key="Primary Color" description-key="Button primary color" of-type="SingleLine.Text" usage="input" default-value="#0078d4" />
+    
+    <property name="SecondaryColor" display-name-key="Secondary Color" description-key="Button secondary color" of-type="SingleLine.Text" usage="input" default-value="#106ebe" />
+    
+    <property name="ButtonTextColor" display-name-key="Button Text Color" description-key="Button text color" of-type="SingleLine.Text" usage="input" default-value="#ffffff" />
+    
+    <property name="BorderColor" display-name-key="Border Color" description-key="Container border color" of-type="SingleLine.Text" usage="input" default-value="#e0e0e0" />
+    
+    <property name="BackgroundColor" display-name-key="Background Color" description-key="Component background color" of-type="SingleLine.Text" usage="input" default-value="#ffffff" />
+    
+    <property name="FontSize" display-name-key="Font Size" description-key="Font size in pixels" of-type="Whole.None" usage="input" default-value="14" />
+    
+    <property name="ComponentHeight" display-name-key="Component Height" description-key="Component height in pixels" of-type="Whole.None" usage="input" default-value="600" />
+
+    <!-- Button Text Properties -->
+    <property name="UploadButtonText" display-name-key="Upload Button Text" description-key="Upload button text" of-type="SingleLine.Text" usage="input" default-value="Choose Image" />
+    
+    <property name="ProcessButtonText" display-name-key="Process Button Text" description-key="Process button text" of-type="SingleLine.Text" usage="input" default-value="Remove Background" />
+    
+    <property name="DownloadButtonText" display-name-key="Download Button Text" description-key="Download button text" of-type="SingleLine.Text" usage="input" default-value="Download" />
+    
+    <property name="CopyButtonText" display-name-key="Copy Button Text" description-key="Copy button text" of-type="SingleLine.Text" usage="input" default-value="Copy Image" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/RemoveBackground.css" order="1" />
+    </resources>
+    
+  </control>
+</manifest>
